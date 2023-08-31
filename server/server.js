@@ -16,7 +16,7 @@ const bcrypt = require("bcryptjs"); //password hasher
 const jwt = require("jsonwebtoken");
 // Very sensitive - keep safe.
 const JWT_SECRET_KEY = "mv(3jfoa.@01va(Adup";
-const MONGOOSE_URL = "mongodb://127.0.0.1:27017/login-app-db";
+const MONGOOSE_URL = "mongodb+srv://hahz:EzMypWEjcrTcKENS@colab.jooewz9.mongodb.net/";
 const moment = require("moment");
 // Stripe
 const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST);
@@ -31,7 +31,7 @@ const { promisify } = require("util");
 const randomBytes = promisify(crypto.randomBytes);
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://colabme.vercel.app/",
     credentials: true,
   })
 );

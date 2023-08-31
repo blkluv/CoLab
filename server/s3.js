@@ -10,7 +10,7 @@ dotenv.config();
 // connects to the S3 bucket and handles generation of the secure URL
 
 const region = "us-west-2";
-const bucketName = "colab-images";
+const bucketName = "arvrtise";
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
 const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY_ID;
 

@@ -14,7 +14,7 @@ import ActiveProjects from "./ActiveProjects";
 import CreateProjectModal from "./CreateProjectModal";
 import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import "../styles/dashboard.scss";
-import colabFolder from "../assets/colab-logo.png";
+import colabFolder from "../assets/colablogo.png";
 import colabTextTransparent from "../assets/colab-text-transparent.png";
 import useFetchUserAndProjects from "../hooks/useFetchUserAndProjects";
 

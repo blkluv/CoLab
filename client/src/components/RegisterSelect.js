@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
-import colabFolder from "../assets/colab-logo.png";
+import colabFolder from "../assets/colablogo.png";
 
 const RegisterSelect = ({ handleShowForms }) => {
   return (
